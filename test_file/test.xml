@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page>
+    <database name = "newtest">
+        <table name = "newtable">
+            <sql id = "select_num">SELECT * FROM newtable where id = '1'</sql>
+            <sql id  = "select_sum">select sum(a) from newtable where b = '3' </sql>
+        </table>
+        <table name = "oldtable">
+            <sql id="select_old_num">SELECT * FROM newtable where old_id = '1'</sql>
+            <sql id = "select_old_sum">select sum(a) from newtable where old_b = '3'</sql>
+        </table>
+    </database>
+</page>
+
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+	<database name="newsitetest">
+		<table name="rs_member_wallet_bill">
+			<sql id="select_member">SELECT * FROM `lsh库存表` WHERE `车架号` LIKE '%WDDSJ4DB9HN438884%'</sql>				
+			<sql id="select_user">SELECT * FROM `用户` WHERE `用户名` LIKE '%guwen1%'</sql>
+		</table>
+	</database>
+</page>
