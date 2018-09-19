@@ -9,7 +9,7 @@ class salesFunnelOperation(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.dates = commons.commonMethod().readExcel('Lsh_Interface.xlsx','Test_Sale_Funnel_Operation')
-        #cls.dates_new = commons.commonMethod().readNewExcel('testcase.xlsx')
+        cls.dates_new = commons.commonMethod().readNewExcel('testcase.xlsx')
         cls.testUrl = cls.dates[0][0]
         cls.testmethod = cls.dates[1][0]
         cls.log = logger.Log('salesFunnelOperation')
@@ -76,6 +76,7 @@ class salesFunnelOperation(unittest.TestCase):
         self.logger.info('parameters: %s' % parameters)
         status_code = self.dates[5][3]
         check_text = self.dates[5][4]
+        #print(self.testUrl)
         respones = requests.post(url=self.testUrl,data=parameters,headers=head)
         #print(respones.text)
         respones_json = respones.json()
@@ -89,6 +90,6 @@ class salesFunnelOperation(unittest.TestCase):
         pass
 
 
-# if __name__ == "__main__":
-#     unittest.main()
+if __name__ == "__main__":
+    unittest.main()
 

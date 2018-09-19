@@ -1,0 +1,168 @@
+2018-09-18 18:17:57,447 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-18 18:17:57,449 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:17:57,450 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-18 18:18:14,627 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-18 18:18:14,627 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:18:14,628 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-18 18:46:16,591 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-18 18:46:16,594 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:46:16,594 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-18 18:46:31,416 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-18 18:46:31,417 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:46:31,417 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-18 18:49:45,119 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-18 18:49:45,120 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:49:45,120 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-18 18:49:49,968 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-18 18:49:49,968 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-18 18:49:49,968 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:49:40,634 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-19 15:49:40,635 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:49:40,635 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:49:49,485 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-19 15:49:49,485 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:49:49,486 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:51:09,483 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-19 15:51:09,484 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:51:09,484 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:51:18,466 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-19 15:51:18,466 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:51:18,466 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:55:00,400 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表时间维度全量查询
+2018-09-19 15:55:00,400 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:55:00,401 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"1",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}
+2018-09-19 15:55:23,306 - test_ManagementReport_interface - INFO - casename: 测试销售管理报表地域维度全量查询
+2018-09-19 15:55:23,307 - test_ManagementReport_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSalesReportInfo
+2018-09-19 15:55:23,307 - test_ManagementReport_interface - INFO - parameters: {
+ "displayType":"2",
+ "selectYear":"2018",
+ "selQuarter":"all",
+ "selMonth":"all",
+ "fr_username":"Admin",
+ "selRegionCode":"all",
+ "selPMACode":"all",
+ "selDealerCode":"all",
+ "selBrandSumName":"",
+ "groupId":"LSH"
+}

@@ -34,7 +34,7 @@ def get_testsuite():
 def get_email_path():
     report_path = os.path.join(readConfig.proDir,'test_report')
     #将测试报告放置到Tomcat下
-    report_path = "D:\\apache-tomcat-8.5.33\\webapps\\Lsh_Interface_Test_Report"
+    #report_path = "D:\\apache-tomcat-8.5.33\\webapps\\Lsh_Interface_Test_Report"
     report_file = commons.commonMethod().sortReport(report_path)
     local_time = commons.commonMethod().getTime()
     report_name = "LSH_"+local_time+"TestReport.html"
@@ -45,7 +45,7 @@ def get_email_path():
 if __name__ == '__main__':
     report = get_report_path()
     suit = get_testsuite()
-    #email_path,report_name = get_email_path()
+    email_path,report_name = get_email_path()
     fp=open(report,'wb')
     #runner = unittest.TextTestRunner()
     runner=HTMLTestRunner.HTMLTestRunner(
@@ -54,6 +54,6 @@ if __name__ == '__main__':
     description=u'用例执行情况：')
     runner.run(suit)
     fp.close()
-   # configEmail.Email().sendEmail(email_path,report_name)
+    configEmail.Email().sendEmail(email_path,report_name)
 
 

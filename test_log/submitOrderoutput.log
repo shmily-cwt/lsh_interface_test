@@ -162,3 +162,11 @@
 2018-09-18 15:33:22,322 - test_SubmitOrder_interface - INFO - request: http://120.26.46.194:8129/LiVEService/financeWriteOff/getWriteOffDetail?AccountId=1804&transferId=&pageIndex=0&pageSize=0
 2018-09-18 15:33:22,322 - test_SubmitOrder_interface - INFO - parameters: "{\"key1\":\"value\",\"key2\":\"value\"}"
 2018-09-18 15:33:22,383 - test_SubmitOrder_interface - INFO - response: {"result":"true","message":"核销明细查询成功","pageData":{"total":0,"data":[]}}
+2018-09-19 15:51:34,015 - test_SubmitOrder_interface - INFO - casename: 测试接口传参为空
+2018-09-19 15:51:34,018 - test_SubmitOrder_interface - INFO - request: http://120.26.46.194:8129/LiVEService/financeWriteOff/getWriteOffDetail?AccountId=1804&transferId=&pageIndex=0&pageSize=0
+2018-09-19 15:51:34,018 - test_SubmitOrder_interface - INFO - parameters: "{\"key1\":\"value\",\"key2\":\"value\"}"
+2018-09-19 15:51:34,104 - test_SubmitOrder_interface - INFO - response: {"result":"true","message":"核销明细查询成功","pageData":{"total":0,"data":[]}}
+2018-09-19 15:55:39,153 - test_SubmitOrder_interface - INFO - casename: 测试接口传参为空
+2018-09-19 15:55:39,153 - test_SubmitOrder_interface - INFO - request: http://120.26.46.194:8129/LiVEService/financeWriteOff/getWriteOffDetail?AccountId=1804&transferId=&pageIndex=0&pageSize=0
+2018-09-19 15:55:39,154 - test_SubmitOrder_interface - INFO - parameters: "{\"key1\":\"value\",\"key2\":\"value\"}"
+2018-09-19 15:55:39,229 - test_SubmitOrder_interface - INFO - response: {"result":"true","message":"核销明细查询成功","pageData":{"total":0,"data":[]}}

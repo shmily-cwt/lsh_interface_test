@@ -9,7 +9,7 @@ class submitOrder(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.dates = commons.commonMethod().readExcel('test_submitOrder.xlsx')
+        cls.dates = commons.commonMethod().readExcel('test_submitOrder.xlsx','Sheet1')
         cls.testUrl = cls.dates[0][0]
         cls.testmethod = cls.dates[1][0]
         cls.log = logger.Log('submitOrder')

@@ -27,9 +27,9 @@ class salesManagementReport(unittest.TestCase):
         respones = requests.post(url=self.testUrl,data=parameters,headers=head)
         respones_json = respones.json()
         print("返回状态码:",respones.status_code)
-        self.assertEqual(respones_json[0]['projectValue'],str(check_text),msg='验证通过')
-        print("验证字段值为：projectValue")
-        print(respones_json[0]['projectValue']+"="+str(check_text)+"\t"+"验证通过")
+        self.assertEqual(respones_json[0]['twoIndexNameOrder'],str(check_text),msg='验证通过')
+        print("验证字段值为：twoIndexNameOrder")
+        print(respones_json[0]['twoIndexNameOrder']+"="+str(check_text)+"\t"+"验证通过")
     def test_b_select_fordiyu_all(self):
         '''测试销售管理报表地域维度查询全量'''
         casename = self.dates[4][0]
@@ -43,9 +43,9 @@ class salesManagementReport(unittest.TestCase):
         respones = requests.post(url=self.testUrl,data=parameters,headers=head)
         respones_json = respones.json()
         print("返回状态码:",respones.status_code)
-        self.assertEqual(respones_json[0]['projectValue'],str(check_text),msg='验证通过')
-        print("验证字段值为：projectValue")
-        print(respones_json[0]['projectValue']+"="+str(check_text)+"\t"+"验证通过")
+        self.assertEqual(respones_json[0]['twoIndexNameOrder'],str(check_text),msg='验证通过')
+        print("验证字段值为：twoIndexNameOrder")
+        print(respones_json[0]['twoIndexNameOrder']+"="+str(check_text)+"\t"+"验证通过")
 
 
 
@@ -54,6 +54,6 @@ class salesManagementReport(unittest.TestCase):
         pass
 
 
-# if __name__ == "__main__":
-#     unittest.main()
-#
+if __name__ == "__main__":
+    unittest.main()
+
