@@ -810,3 +810,367 @@
 2018-09-19 15:55:35,525 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
 2018-09-19 15:55:35,525 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
 2018-09-19 15:55:35,525 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-19 17:41:03,439 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-19 17:41:03,439 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-19 17:41:03,439 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-19 17:41:09,479 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-19 17:41:09,481 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-19 17:41:09,482 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-19 17:41:10,580 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-19 17:41:10,581 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-19 17:41:10,582 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 16:54:58,602 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 16:54:58,603 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 16:54:58,604 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 16:55:04,776 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 16:55:04,776 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 16:55:04,778 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 16:55:05,835 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 16:55:05,836 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 16:55:05,836 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 18:27:07,421 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 18:27:07,421 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:27:07,421 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 18:27:13,462 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 18:27:13,462 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:27:13,463 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 18:27:14,496 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 18:27:14,496 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:27:14,497 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 18:58:45,958 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 18:58:45,958 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:58:45,958 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 18:58:57,324 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 18:58:57,325 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:58:57,325 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 18:58:59,187 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 18:58:59,187 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 18:58:59,187 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:00:42,170 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:00:42,171 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:00:42,171 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:00:54,470 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:00:54,470 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:00:54,470 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:00:55,576 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:00:55,577 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:00:55,578 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:02:27,849 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:02:27,849 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:02:27,849 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:02:34,795 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:02:34,795 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:02:34,795 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:02:36,471 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:02:36,471 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:02:36,471 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:12:27,531 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:12:27,531 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:12:27,531 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:12:33,475 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:12:33,476 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:12:33,476 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:12:34,490 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:12:34,491 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:12:34,491 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:14:33,835 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:14:33,835 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:14:33,835 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:14:39,802 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:14:39,802 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:14:39,802 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:14:40,808 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:14:40,809 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:14:40,810 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:17:22,672 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:17:22,672 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:17:22,672 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:17:28,630 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:17:28,631 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:17:28,631 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:17:29,682 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:17:29,683 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:17:29,683 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:24:21,828 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:24:21,829 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:24:21,829 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:24:27,625 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:24:27,625 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:24:27,625 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:24:28,612 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:24:28,612 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:24:28,613 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:26:16,608 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:26:16,608 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:26:16,608 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:26:22,374 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:26:22,374 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:26:22,374 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:26:23,344 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:26:23,344 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:26:23,345 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:49:45,975 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-20 19:49:45,975 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:49:45,976 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-20 19:49:52,113 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-20 19:49:52,113 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:49:52,114 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-20 19:49:53,169 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-20 19:49:53,169 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-20 19:49:53,169 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-21 14:47:11,058 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-21 14:47:11,059 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:47:11,059 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-21 14:47:17,042 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-21 14:47:17,043 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:47:17,045 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-21 14:47:18,185 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-21 14:47:18,185 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:47:18,185 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-21 14:51:15,468 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营时间维度全量查询
+2018-09-21 14:51:15,468 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:51:15,468 - test_salesFunnelOperation_interface - INFO - parameters: {
+    "displayType":"1",
+    "startDate":"",
+    "endDate":"",
+    "selectYear":"2018",
+    "selQuarter":"all",
+    "selMonth":"all",
+    "selRegionCode":"all",
+    "selPMACode":"all",
+    "selDealerCode":"all",
+    "selBrand":"all",
+    "selSource":"all",
+    "selSystem":"all",
+    "selBaumuster":"all",
+    "groupId":"LSH",
+    "isSFOR":"1",
+    "fr_username":"Admin"
+}
+2018-09-21 14:51:21,600 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营地域维度全量查询
+2018-09-21 14:51:21,600 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:51:21,601 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"2","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}
+2018-09-21 14:51:22,625 - test_salesFunnelOperation_interface - INFO - casename: 测试销售漏斗运营品牌车系维度全量查询
+2018-09-21 14:51:22,625 - test_salesFunnelOperation_interface - INFO - request: http://183.91.155.195:7522/LiVEService/mgtReport/getSaleFunnelOperateReport
+2018-09-21 14:51:22,625 - test_salesFunnelOperation_interface - INFO - parameters: {"displayType":"6","selectYear":"2018","selQuarter":"all","selMonth":"all","startDate":"2018-07-01","endDate":"2018-07-16","selRegionCode":"ER2","selPMACode":"other","selDealerCode":"all","selBrand":"all","selSystem":"all","selBaumuster":"all","groupId":"LSH","fr_username":"Admin","selSource":"all","isSFOR":"1"}

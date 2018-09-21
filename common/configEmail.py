@@ -24,7 +24,7 @@ class Email:
         send_receivers = self.receivers.split(',')
         return send_receivers
 
-    def sendEmail(self,reportfile,filename):
+    def sendEmail(self,reportfile,email_content,filename):
         '''
         该方法实现发送邮件
         '''
@@ -33,7 +33,7 @@ class Email:
         message['From'] = Header("接口自动化测试组", 'utf-8')
         message['To'] =  Header("各位同事及领导", 'utf-8')
         message['Subject'] = Header(self.subject, 'utf-8')
-        message.attach(MIMEText("""Hi all:\n \t 利星行自动化测试结果详情见附件。""", 'plain', 'utf-8'))
+        message.attach(MIMEText(email_content, 'html', 'utf-8'))
         #构建邮件正文,
         #message = MIMEText('利星行接口测试报告，详情见附件！', 'plain', 'utf-8')
         #构造附件

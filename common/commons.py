@@ -85,6 +85,7 @@ class commonMethod:
         传入测试报告路径返回最新的测试报告路径
         '''
         #返回路径下所有的文件  list类型
+        #print(filepath)
         lists = os.listdir(filepath)
         #对返回的lists中文件和文件夹按照时间进行排序
         lists.sort(key = lambda fn: os.path.getmtime(filepath+"\\"+fn))

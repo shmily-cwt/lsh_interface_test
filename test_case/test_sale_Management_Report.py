@@ -6,6 +6,7 @@ import time
 from common import commons,logger
 
 class salesManagementReport(unittest.TestCase):
+    '''销售管理报表接口'''
     @classmethod
     def setUpClass(cls):
         cls.dates = commons.commonMethod().readExcel('Lsh_Interface.xlsx','Sales_Management_Report')

@@ -6,6 +6,7 @@ import time
 from common import commons,logger
 
 class salesFunnelOperation(unittest.TestCase):
+    '''销售漏斗运营报表'''
     @classmethod
     def setUpClass(cls):
         cls.dates = commons.commonMethod().readExcel('Lsh_Interface.xlsx','Test_Sale_Funnel_Operation')
