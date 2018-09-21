@@ -74,21 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configEmail.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="configEmail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/configEmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.11013216">
+            <state vertical-scroll-proportion="0.0">
               <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_test/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0930233">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8029197">
+              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -205,9 +205,9 @@
         <option value="D:/python36/Lib/site-packages/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/common/commons.py" />
         <option value="$PROJECT_DIR$/common/configEmail.py" />
-        <option value="$PROJECT_DIR$/run_test/runtest.py" />
         <option value="$PROJECT_DIR$/test_case/test_unittest.py" />
         <option value="D:/python36/Lib/site-packages/HTMLTestReportCN.py" />
+        <option value="$PROJECT_DIR$/run_test/runtest.py" />
       </list>
     </option>
   </component>
@@ -1142,21 +1142,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_test/runtest.py">
+    <entry file="file://$PROJECT_DIR$/common/configEmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0930233">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/configEmail.py">
+    <entry file="file://$PROJECT_DIR$/run_test/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11013216">
-          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
-          <folding />
+        <state vertical-scroll-proportion="0.8029197">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

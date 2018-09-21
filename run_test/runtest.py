@@ -107,7 +107,7 @@ if __name__ == '__main__':
         tester='chenwt'
         )
     result = runner.run(suit)
-    #email_path,report_name = get_email_path()
+    email_path,report_name = get_email_path()
     # send_email_txt = email_tmpl % dict(
     #     count_total = str(result.success_count+result.failure_count+result.error_count),
     #     pass_case = str(result.success_count),
@@ -126,6 +126,6 @@ if __name__ == '__main__':
     #print(EMAIL_TMPL3)
     send_email_txt = get_email_tmpl(EMAIL_TMPL2,EMAIL_TMPL3)
     fp.close()
-    #configEmail.Email().sendEmail(email_path,send_email_txt,report_name)
+    configEmail.Email().sendEmail(email_path,send_email_txt,report_name)
 
 
