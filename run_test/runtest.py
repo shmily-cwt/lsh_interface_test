@@ -7,6 +7,7 @@ from test_case import test_submitOrder
 from common import commons
 from common import configEmail
 import HTMLTestRunner
+import HTMLTestReportCN
 
 def get_report_path():
     #本地路径
@@ -93,12 +94,20 @@ if __name__ == '__main__':
     suit = get_testsuite()
     fp=open(report,'wb')
     #runner = unittest.TextTestRunner()
-    runner=HTMLTestRunner.HTMLTestRunner(
-    stream=fp,
-    title=u'利星行接口测试报告',
-    description=u'用例执行情况：')
+    #原始测试报告
+    # runner=HTMLTestRunner.HTMLTestRunner(
+    # stream=fp,
+    # title=u'利星行接口测试报告',
+    # description=u'用例执行情况：')
+    #中文测试报告
+    runner = HTMLTestReportCN.HTMLTestRunner(
+        stream=fp,
+        title='自动化测试报告',
+        #description='详细测试用例结果',
+        tester='chenwt'
+        )
     result = runner.run(suit)
-    email_path,report_name = get_email_path()
+    #email_path,report_name = get_email_path()
     # send_email_txt = email_tmpl % dict(
     #     count_total = str(result.success_count+result.failure_count+result.error_count),
     #     pass_case = str(result.success_count),
@@ -117,6 +126,6 @@ if __name__ == '__main__':
     #print(EMAIL_TMPL3)
     send_email_txt = get_email_tmpl(EMAIL_TMPL2,EMAIL_TMPL3)
     fp.close()
-    configEmail.Email().sendEmail(email_path,send_email_txt,report_name)
+    #configEmail.Email().sendEmail(email_path,send_email_txt,report_name)
 
 
